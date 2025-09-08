@@ -1,0 +1,72 @@
+/* === Container Grid for Resume Previews === */
+.resume-preview-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  align-items: stretch; /* all items equal height */
+  margin: 20px 0;
+}
+
+/* === Each Grid Item (Card Wrapper) === */
+.resume-preview-grid-item {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+/* === Resume Preview Box === */
+.resume-preview-grid-item #previewresume {
+  flex: 1; /* expands inside grid item */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow-y: auto; /* handles long content */
+}
+
+/* Hover effect */
+.resume-preview-grid-item #previewresume:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+}
+
+
+/* === Save Button Container === */
+.resume-save-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* === Save Button === */
+.resume-save-button {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  
+  transition: background 0.2s ease;
+}
+
+.resume-save-button:hover {
+  background: #0056b3;
+}
+
+/* === Responsive Design === */
+@media only screen and (max-width: 768px) {
+  .resume-preview-grid-container {
+    grid-template-columns: 1fr; /* stack vertically */
+  }
+
+  .resume-save-container {
+    margin-top: 15px;
+  }
+}

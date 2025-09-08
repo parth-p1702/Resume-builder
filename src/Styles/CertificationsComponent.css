@@ -1,0 +1,54 @@
+.certifications-paper {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.certifications-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #333;
+}
+
+.certifications-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.cert-input-with-delete {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cert-input-with-delete input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.cert-input-with-delete input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.3);
+}
+
+.add-new-btn {
+  color: #1976d2 ;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: none !important;
+}
+
+.add-new-btn:hover {
+  background-color: rgba(25, 118, 210, 0.08);
+  border-radius: 8px;
+}

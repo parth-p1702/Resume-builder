@@ -1,0 +1,17 @@
+/* Apply padding to all MUI Containers inside templates */
+.MuiContainer-root {
+  padding: 0 20px !important;
+}
+
+/* Make all lists consistent */
+.MuiContainer-root ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.MuiContainer-root li {
+  list-style-type: disc;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.4;
+}

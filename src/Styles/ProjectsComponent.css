@@ -1,0 +1,106 @@
+.projects-paper {
+  width: 75%;
+  padding: 40px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+}
+
+.projects-heading {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.projects-form-fields {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-input-with-delete {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-input-with-delete input,
+.project-input-with-delete textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.project-input-with-delete input:focus,
+.project-input-with-delete textarea:focus {
+  border-color: #0d47a1;
+  outline: none;
+}
+
+.project-input-with-delete svg {
+  align-self: flex-start;
+  color: #0d47a1;
+  cursor: pointer;
+  transition: color 0.2s;
+  margin-top: 5px;
+}
+
+.project-input-with-delete svg:hover {
+  color: #094a8c;
+}
+
+.add-new-btn {
+  text-transform: none;
+  align-self: flex-start;
+  background-color: #0d47a1;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  transition: background-color 0.2s;
+}
+
+.add-new-btn:hover {
+  background-color: #094a8c;
+}
+
+/* Divider spacing */
+.MuiDivider-root {
+  border-bottom-width: 2px;
+  margin: 20px 0px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1010px) {
+  .projects-paper {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1010px) and (max-width: 1300px) {
+  .projects-paper {
+    width: 90%;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projects-form-fields {
+    grid-template-columns: 1fr;
+  }
+}

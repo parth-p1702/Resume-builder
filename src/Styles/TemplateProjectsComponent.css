@@ -1,0 +1,25 @@
+.template-projects {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 13px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.template-project {
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
+.template-project-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.template-project-description {
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2px;
+}

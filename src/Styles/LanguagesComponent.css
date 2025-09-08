@@ -1,0 +1,82 @@
+.key-skills-paper {
+  width: 75%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+  margin-right: 0px;
+}
+
+.key-skills-heading {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  border-left: 4px solid #0d47a1;
+  padding-left: 8px;
+}
+
+.key-input-with-delete {
+  width: 100%;
+  display: flex; /* Row layout */
+  align-items: center;
+  gap: 10px; /* Space between input and delete icon */
+  position: relative;
+}
+
+.key-input-with-delete input {
+  flex: 1; /* Take remaining width */
+  padding: 10px;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.key-input-with-delete input:focus {
+  border-color: #0d47a1;
+  outline: none;
+}
+
+/* Delete icon at the end of input */
+.key-input-with-delete svg {
+  cursor: pointer;
+  color: #d32f2f;
+  transition: color 0.2s;
+}
+
+.key-input-with-delete svg:hover {
+  color: #9a0007;
+}
+
+.key-skills-paper .MuiButton-root {
+  text-transform: none;
+  align-self: flex-start;
+  background-color: #0d47a1;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  transition: background-color 0.2s;
+}
+
+.key-skills-paper .MuiButton-root:hover {
+  background-color: #094a8c;
+}
+
+/* Divider spacing */
+.MuiDivider-root {
+  border-bottom-width: 2px;
+  margin: 20px 0px;
+}
+
+/* Responsive */
+@media screen and (max-width: 450px) {
+  .key-input-with-delete {
+    flex-direction: row; /* Keep row even on small screens */
+  }
+}

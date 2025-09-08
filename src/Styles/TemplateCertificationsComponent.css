@@ -1,0 +1,20 @@
+.template-certifications {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 13px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.template-certifications-list {
+  margin-left: 10px;
+  list-style-type: disc;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+.template-certification-item {
+  margin-bottom: 4px;
+}

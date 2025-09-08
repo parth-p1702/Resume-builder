@@ -1,0 +1,84 @@
+.template4-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* LEFT SIDEBAR */
+.template4-left {
+  background-color: #0D47A1;
+  color: white;
+  width: 35%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-section {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.sidebar-section h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sidebar-section p,
+.sidebar-section li {
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* RIGHT SECTION */
+.template4-right {
+  width: 65%;
+  padding: 30px;
+}
+
+.header-section {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.designation {
+  font-weight: 500;
+  font-size: 16px;
+  color: #444;
+}
+
+.right-section-block {
+  margin-bottom: 20px;
+}
+
+.MuiContainer-root.css-1oqqzyl-MuiContainer-root {
+  padding: 0px 20px;
+}
