@@ -15,7 +15,7 @@ Special things about this project is build using local storage.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript  
+- **Frontend**: React and material UI  
 - **Storage**: Local Storage API  
 - **Exporting**: JavaScript libraries for PDF/Docx generation  
 
