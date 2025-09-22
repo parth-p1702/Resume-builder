@@ -1,6 +1,5 @@
 # Resume-builder
-Project helps to build resume 
-Special things about this project is build using local storage.
+Project helps to build resume and also used for major/minor project
 
 ## 🚀 Features
 
