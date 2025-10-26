@@ -23,4 +23,6 @@ Project helps to build resume and also used for major/minor project
 ## 🔑 Key Highlights
 
 - ⚡ **Fast & Lightweight** – No server calls, everything runs in the browser.  
-- 🔐 **Privacy-Friendly** – Data never leaves your system. 
+- 🔐 **Privacy-Friendly** – Data never leaves your system.
+- Scalability
+- Efficiency
